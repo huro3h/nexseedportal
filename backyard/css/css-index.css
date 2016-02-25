@@ -172,6 +172,7 @@ a.btn.btn-default2 {
 .site-name img {
 	width: 150px; 
 	height: 37px
+	
 }
 .logo {
 	margin: 100px 0 40px 0;
@@ -197,7 +198,7 @@ a.btn.btn-default2 {
 	font-size: 17px !important; 
 }
 .head-btn {
-	margin-bottom: 15px;
+	margin-bottom: 150px;
 }
 .option {
 	text-transform: uppercase;
