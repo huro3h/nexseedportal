@@ -114,12 +114,12 @@ a:hover {
 
 }
 
-a.btn.btn-default2 {
+.btn-default2 {
 	font-size: 17px;
 	margin: 10px 0 10px;
 	margin-right: 10px;
 	line-height: 20px;
-	padding: 12px 20px;
+	padding: 7px 14px;
 	height: 50px;
 	border: 2px solid #3eb0f7;
 	background: transparent;
@@ -134,6 +134,13 @@ a.btn.btn-default2 {
 	background: #3eb0f7;
 	color: white;
 }
+
+.btn-default2:hover, .btn-default2:focus, .btn-default2:active, .btn-default2.active, .open > .dropdown-toggle.btn-default2 {
+	border: 2px solid #3eb0f7;
+	background: #3eb0f7;
+	color: white;
+}
+
 .btn-primary {
 	font-size: 17px;
 	margin: 30px 0 10px;
@@ -278,7 +285,8 @@ a.btn.btn-default2 {
 	margin-top: 20px;
 }
 .btn-section {
-	padding-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 #feature {
 	padding-top: 100px;
